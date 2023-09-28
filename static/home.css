@@ -1,0 +1,229 @@
+:root {
+    --BgColor: linear-gradient(90deg, rgb(27, 123, 124) 0%, rgb(43, 153, 129) 100%);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Classe Main*/
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.main .nav{    
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background:var(--BgColor) ;
+
+}
+
+
+.main .nav-active{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    background: white;
+    opacity: 0.9;
+
+}
+
+
+
+
+.main .nav ul{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main .nav ul li{
+    list-style: none;
+    padding: 0 2vw 0 2vw ;
+    border-right: 1px solid black;
+}
+
+
+.main .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main .nav-active ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main .nav ul li a:hover{
+    color: rgb(238, 189, 124);
+    opacity: 0.7;
+}
+
+
+.main .CenterInformation {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:var(--BgColor) ;
+    color: white;
+    justify-content: center;
+    
+}
+
+.main .CenterInformation .ContentCenter {
+   width: 50vw; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 15vh 0 5vh 0;
+}
+
+
+
+
+
+
+
+
+.main .CenterInformation  .ContentCenter .TitleContent{
+    font-size: 15px;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    margin: 10vh 0 3vh 0;
+}
+
+
+
+
+
+
+
+
+.main .CenterInformation .ContentCenter .MainTitleSolucoes{
+    margin-left: -12vw;
+    padding: 10px;
+}
+
+
+.main .CenterInformation  .ContentCenter .MainTitleSolucoes:hover{
+    color: rgb(202, 131, 243);
+    opacity: 0.4;
+}
+
+
+
+
+
+.main .CenterInformation .ContentCenter .MainTitleRpas{
+    margin-left: -5vw;
+    padding: 10px;
+
+
+}
+
+
+.main .CenterInformation  .ContentCenter .MainTitleRpas:hover{
+    color: rgb(202, 131, 243);
+    opacity: 0.4;
+}
+
+
+
+
+
+.main .CenterInformation .ContentCenter .MainTitle100{
+    margin-left: 0vw;
+    padding: 10px;
+
+}
+
+.main .CenterInformation  .ContentCenter .MainTitle100:hover{
+    color: rgb(202, 131, 243);
+    opacity: 0.4;
+}
+
+
+
+
+
+
+.main .CenterInformation .ContentCenter .MainTitleCustom{
+    margin-left: 17vw;
+    padding: 10px 0 10vh 0;
+
+
+}
+
+.main .CenterInformation  .ContentCenter .MainTitleCustom:hover{
+    color: rgb(202, 131, 243);
+    opacity: 0.4;
+}
+
+.main .CenterInformation  .ContentCenter .Content{
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+
+
+
+
+.main .RpaSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+.main .RpaSection .LeftSide{
+    width: 30%;
+
+}
+
+.main .RpaSection .RightSide{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    
+}
+
+.main .RpaSection .RightSide h1{
+    padding: 20px 0 20px 0;
+    
+}
+
+.main .RpaSection .RightSide p{
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    width: 60vw;
+    
+}
+
+.main .RpaSection .RightSide ul li{
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    
+}
