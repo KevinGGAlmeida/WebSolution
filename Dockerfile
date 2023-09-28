@@ -2,7 +2,7 @@ FROM  python
 
 WORKDIR /app
 
-RUN python -m pip flask
+RUN python -m pip install flask
 
 COPY . .
 
